@@ -88,7 +88,9 @@
             <div class="form-group">
                 <input type= "hidden" name= "id" value="<?php echo $id ?>" />
                 <input type="submit" class="btn btn-warning mx-auto" value="Save data">
-                <input type="button" class="btn btn-success mx-auto" value="Back">
+                <a href= "index.php">
+                    <input type="button" class="btn btn-success mx-auto" value="Back">
+                </a>
             </div>
         </form>
     </div>
