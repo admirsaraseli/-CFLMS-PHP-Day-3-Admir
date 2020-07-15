@@ -20,11 +20,11 @@
 	year INT NOT NULL,
 	price FLOAT(5),
 	image VARCHAR(100),
-	reg_date TIMESTAMP
+	location VARCHAR(50)
 	)" ;
 
 	if (mysqli_query($conn, $sql)) {
-	   echo "Table Users created successfully"  . "\n";
+	   echo "Table classic_cars created successfully"  . "\n";
 	} else {
 	   echo  "Error creating table: " . mysqli_error($conn) . "\n";
 	}
